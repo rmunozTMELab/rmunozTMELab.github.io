@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abstract – Enhancing material behavior discovery using embedding-oriented Physically-Guided Neural Networks with Internal Variables</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      line-height: 1.7;
+      background: #f9f9fb;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #1a1a1a;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #616161;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      color: #003d80;
+      transform: translateX(-3px);
+    }
+
+    a::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #0056b3;
+      transition: width 0.3s;
+    }
+
+    a:hover::after {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Abstract</h1>
+    <h2>Enhancing material behavior discovery using embedding-oriented Physically-Guided Neural Networks with Internal Variables</h2>
+
+    <p>
+      Physically Guided Neural Networks with Internal Variables are SciML tools that use only observable data for training and have the capacity to unravel internal state relations. They incorporate physical knowledge both by prescribing the model architecture and using loss regularization, thus endowing certain specific neurons with a physical meaning as internal state variables.
+      Despite their potential, these models face challenges in scalability when applied to high-dimensional data such as fine-grid spatial fields or time-evolving systems. 
+      In this work, we propose enhancements to the PGNNIV framework that address these scalability limitations through reduced-order modeling techniques.
+    <p>
+
+    <p>
+      Specifically, we introduce alternatives to the original decoder structure using spectral decomposition, POD, and pretrained autoencoder-based mappings. These surrogate decoders offer varying trade-offs between computational efficiency, accuracy, noise tolerance, and generalization, while improving drastically the scalability.
+      Additionally, we integrate model reuse via transfer learning and fine-tuning strategies to exploit previously acquired knowledge, supporting efficient adaptation to novel materials or configurations. This approach significantly reduces training time while maintaining or improving model performance.
+      To illustrate these techniques, we use a representative case governed by the nonlinear diffusion equation, using only observable data. 
+    <p>
+          
+    <p>
+      Results demonstrate that the enhanced PGNNIV framework successfully identifies the underlying constitutive state equations while maintaining high predictive accuracy.
+      Moreover, it improves robustness to noise, mitigates overfitting, and reduces computational demands. The proposed techniques can be tailored to various scenarios depending on data availability, resources, and specific modeling objectives, overcoming scalability challenges in all the scenarios.
+    </p>
+
+    <!-- <a href="/publications/">&#8592; Back to Publications</a> -->
+  </div>
+</body>
+</html>
