@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abstract – GastricAITool: A Clinical Decision Support Tool for the Diagnosis and Prognosis of Gastric Cancer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      line-height: 1.7;
+      background: #f9f9fb;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #1a1a1a;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #616161;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      color: #003d80;
+      transform: translateX(-3px);
+    }
+
+    a::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #0056b3;
+      transition: width 0.3s;
+    }
+
+    a:hover::after {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Abstract</h1>
+    <h2>GastricAITool: A Clinical Decision Support Tool for the Diagnosis and Prognosis of Gastric Cancer</h2>
+    <p>
+      Gastric cancer (GC) is a complex disease representing a significant
+      global health concern. Advanced tools for the early diagnosis and prediction of adverse outcomes
+      are crucial. In this context, artificial intelligence (AI) plays a fundamental role. The aim of this work
+      was to develop a diagnostic and prognostic tool for GC, providing support to clinicians in critical
+      decision-making and enabling personalised strategies. Methods: Different machine learning and
+      deep learning techniques were explored to build diagnostic and prognostic models, ensuring model
+      interpretability and transparency through explainable AI methods. These models were developed
+      and cross-validated using data from 590 Spanish Caucasian patients with primary GC and 633
+      cancer-free individuals. Up to 261 variables were analysed, including demographic, environmental,
+      clinical, tumoral, and genetic data. Variables such as Helicobacter pylori infection, tobacco use, family
+      history of GC, TNM staging, metastasis, tumour location, treatment received, gender, age, and genetic
+      factors (single nucleotide polymorphisms) were selected as inputs due to their association with the
+      risk and progression of the disease. Results: The XGBoost algorithm (version 1.7.4) achieved the best
+      performance for diagnosis, with an AUC value of 0.68 using 5-fold cross-validation. As for prognosis,
+      the Random Survival Forest algorithm achieved a C-index of 0.77. Of interest, the incorporation of
+      genetic data into the clinical–demographics models significantly increased discriminatory ability in
+      both diagnostic and prognostic models. Conclusions: This article presents GastricAITool, a simple
+      and intuitive decision support tool for the diagnosis and prognosis of GC.
+    </p>
+    <!-- <a href="/publications/">&#8592; Back to Publications</a> -->
+  </div>
+</body>
+</html>
